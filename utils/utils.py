@@ -1,7 +1,7 @@
 import inspect
 import re
 
-# Fonction pour extraire un JSON à partir du docstring
+# Fonction pour extraire un JSON
 def extract_json_from_docstring(func):
     # Récupérer le docstring
     docstring = inspect.getdoc(func)
